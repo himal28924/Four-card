@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(0, 0%, 98%);
+    font-family: poppins;
+}
+.container{
+    min-height: 100vh;
+
+    margin: 75px 150px ;
+   
+}
+
+.texts{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.texts .faded-h1{
+    font-weight: 400;
+    color: darkgray;
+}
+
+.texts .norm{
+    font-weight: bold;
+    
+}
+ p{
+    color: #777777;
+    margin-top: 20px;
+}
+
+/* ---------- */
+
+/*  Cards */
+
+.cards{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card1, .card2, .card3, .card4{
+    margin-top: 30px;
+
+    background-color: hsl(0, 0%, 100%);
+    max-width: 300px;
+    padding: 25px 20px ;
+    max-height: 150px;
+    border-radius: 5px;
+}
+
+img{
+    width: 40px;
+    padding-top: 30px;
+    padding-left:250px;
+}
+
+.card1{
+    border-top: 3.5px solid hsl(180, 62%, 55%); 
+    margin-top: 150px;
+}
+
+.card4{
+    border-top: 3.5px solid blue; 
+    margin-top: 150px;
+}
+.card2{
+    border-top: 3.5px solid hsl(0, 78%, 62%); 
+}
+.card3{
+    border-top: 3.5px solid orange; 
+}
+
+
+@media only screen and (max-width: 375px) {
+    .container{
+        margin:7px ;
+    }
+.card1, .card2 ,.card3, .card4{
+    margin-top: 50px;
+}
+
+.card4{
+    margin-bottom: 30px;
+}
+
+  }
